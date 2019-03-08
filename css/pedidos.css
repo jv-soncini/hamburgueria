@@ -1,0 +1,102 @@
+html {
+    height: 100%;
+}
+
+*{
+    margin:0;
+    padding: 0;
+
+}
+body{
+    background-color: #361a06;
+    text-align: center;
+    height: 100%;
+    
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive;
+    
+}
+
+label {
+    font-family: 'Calibri', 'Open Sans', sans-serif;
+}
+main {
+    height: calc(100% - 126px);
+}
+
+h2{
+    text-align: center;
+    font-size: 3em;
+    color: #a70000;
+    -webkit-text-stroke: 0.05em #ff9933;
+
+}
+
+nav > ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #ff9933;
+    font-size: 1.3em;
+    height: 2.5em;
+    align-items: center;
+    
+
+}
+nav a {
+    text-decoration: none;
+    color: #361a06;
+    font-weight: bold;
+    padding: 0.65em 3em;
+}
+nav a:hover{
+    background-color: #c27639;
+    color: #fff;
+}
+
+
+.contato {
+    background: #ff9933;
+    text-align: center;
+    color: #a70000;
+    font-weight: bold;
+    width: 100vw;
+}
+
+form label {
+    color: #ff9933;
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+form h3 {
+    font-family: 'Calibri', 'Open Sans', sans-serif;
+    color: #ff9933;
+    font-size: 1.3em;
+    text-align: center;
+}
+input[type=submit]{
+    background: #a70000;
+    color: #ff9933;
+}
+form {
+    margin: 0 auto;
+    width: 30%;
+    text-align: left;
+}
+input,select{
+    width: 100%;
+    height: 25px;
+    border: none;
+}
+
+form * {
+    margin:5px 0;
+}
+
+form > div {
+    display: inline-block;
+    width: 49.5%;
+}
